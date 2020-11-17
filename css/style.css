@@ -354,7 +354,7 @@
         width: 100%;
     }
     .modal__image {
-        height: 45rem;
+        height: 35rem;
         object-fit: cover;
     }
 }
