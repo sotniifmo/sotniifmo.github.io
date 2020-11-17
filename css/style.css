@@ -344,6 +344,7 @@
     }
     .modal__container {
         display: block;
+        padding-top: 7.5em;
     }
     .modal__content {
         width: 100%;
@@ -354,7 +355,7 @@
         width: 100%;
     }
     .modal__image {
-        height: 35rem;
+        height: 3r5em;
         object-fit: cover;
     }
 }
