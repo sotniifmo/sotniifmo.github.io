@@ -40,6 +40,10 @@
     margin: 0;
 }
 
+.intro__last-text {
+    margin-bottom: 3.5em;
+}
+
 .clock {
     display: flex;
     justify-content: center;
