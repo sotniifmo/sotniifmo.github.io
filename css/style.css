@@ -223,6 +223,7 @@
 }
 
 .modal__picture {
+    display: block;
     width: 45%;
     flex-shrink: 0;
     box-shadow: 0 0.25em 2em 0 rgba(0, 65, 141, .16), 0 0.75em 1.25em -0.75em rgba(0, 0, 0, .5);
@@ -335,6 +336,8 @@
         height: 100%;
         top: 0;
         left: 0;
+        border-radius: 0;
+        z-index: 999;
     }
     .modal__container {
         display: block;
@@ -343,5 +346,12 @@
         width: 100%;
         text-align: center;
         margin-top: 2em;
+    }
+    .modal__picture {
+        width: 100%;
+    }
+    .modal__image {
+        height: 45rem;
+        object-fit: cover;
     }
 }
