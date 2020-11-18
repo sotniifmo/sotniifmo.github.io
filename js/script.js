@@ -78,7 +78,7 @@ function updateClock() {
     clockDays.innerHTML = days;
     if (daysCheck === 0 || daysCheck >= 5 || days >= 11 && days <= 14) {
         clockDaysText.innerHTML = locale.days[2];
-    } else if (minutesCheck === 1) {
+    } else if (daysCheck === 1) {
         clockDaysText.innerHTML = locale.days[0];
     } else {
         clockDaysText.innerHTML = locale.days[1];
