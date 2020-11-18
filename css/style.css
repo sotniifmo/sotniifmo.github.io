@@ -126,15 +126,20 @@
 
 .section__picture {
     display: block;
-    width: 44%;
+    width: 40%;
     flex-shrink: 0;
     box-shadow: 0 0.25em 2em 0 rgba(0, 65, 141, .16), 0 0.75em 1.25em -0.75em rgba(0, 0, 0, .5);
+}
+
+.section__image {
+    max-height: 37.5rem;
 }
 
 .section__image,
 .gallery__image {
     display: block;
     width: 100%;
+    object-fit: cover;
 }
 
 .gallery {
@@ -161,7 +166,6 @@
 
 .gallery__image {
     height: 100%;
-    object-fit: cover;
 }
 
 .map {
