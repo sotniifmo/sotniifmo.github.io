@@ -23,7 +23,7 @@ let clockMinutesText = clock.querySelector('.clock__minutes-text');
 let clockSeconds = clock.querySelector('.clock__seconds');
 let clockSecondsText = clock.querySelector('.clock__seconds-text');
 
-let startDate = new Date(2020, 9, 18, 0, 0, 0, 0);
+let startDate = new Date(2020, 9, 19, 0, 0, 0, 0);
 let locale = {
     seconds: ['секунду', 'секунды', 'секунд'],
     minutes: ['минуту', 'минуты', 'минут'],

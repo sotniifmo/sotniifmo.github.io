@@ -353,7 +353,7 @@
     }
     .modal__container {
         display: block;
-        padding-top: 12em;
+        padding-top: 5em;
     }
     .modal__content {
         width: 100%;
@@ -361,10 +361,12 @@
         margin-top: 2em;
     }
     .modal__picture {
-        width: 100%;
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
     }
     .modal__image {
-        height: 40rem;
+        height: 58vh;
         object-fit: cover;
     }
     .intro__title {
@@ -374,5 +376,44 @@
         width: 1.25em;
         height: 1.25em;
         left: calc(50% - .625em);
+    }
+}
+
+@media all and (max-width: 374px) {
+    .intro__title {
+        font-size: 3rem;
+    }
+    .intro__text {
+        font-size: 1.75rem;
+    }
+    .clock__value {
+        font-size: 2.75rem;
+    }
+    .clock__text {
+        font-size: 1.25rem;
+    }
+    .intro__continue {
+        height: 3rem;
+        font-size: 1.5rem;
+    }
+    .section__title {
+        font-size: 2.25rem;
+    }
+    .text {
+        font-size: 1.25rem;
+    }
+    .riddle-form {
+        margin-top: 1.5em;
+    }
+    .riddle__map {
+        height: 15rem;
+    }
+    .riddle-form__input {
+        font-size: 1.5rem;
+        height: 3.5rem;
+    }
+    .audio__play {
+        width: 3rem;
+        height: 3rem;
     }
 }
