@@ -1,0 +1,41 @@
+{
+  "name": "sotniifmo.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "dev": "gulp dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sotniifmo/sotniifmo.github.io.git"
+  },
+  "author": "stnkvld",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sotniifmo/sotniifmo.github.io/issues"
+  },
+  "homepage": "https://github.com/sotniifmo/sotniifmo.github.io#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.5",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-avif": "^1.0.1",
+    "gulp-changed": "^4.0.3",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-minify": "^3.1.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-webp": "^4.0.1",
+    "imagemin-jpeg-recompress": "^7.0.0",
+    "imagemin-pngquant": "^9.0.2"
+  },
+  "dependencies": {
+    "fullpage": "^1.5.1",
+    "fullpage.js": "^3.1.2",
+    "normalize.css": "^8.0.1",
+    "wow.js": "^1.2.2"
+  }
+}

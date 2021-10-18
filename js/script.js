@@ -38,7 +38,7 @@ function updateClock() {
     let dateDiff = currentDate.getTime() - startDate.getTime();
     let years = Math.floor(dateDiff / (1000 * 3600 * 24 * 30 * 12));
     let yearsCheck = years % 10;
-    let months = Math.floor(dateDiff / (1000 * 3600 * 24 * 30));
+    let months = Math.floor(dateDiff / (1000 * 3600 * 24 * 30) % 12);
     let days = Math.floor(dateDiff / (1000 * 3600 * 24) % 30);
     let daysCheck = days % 10;
     let hours = Math.floor(dateDiff / (1000 * 3600) % 24);
@@ -146,13 +146,13 @@ let myFullpage = new fullpage('.full-page', {
     lazyLoad: true
 });
 
-let overlay = document.querySelector('.overlay');
-let riddleModal = document.querySelector('.riddle-modal');
-let riddleInput = document.querySelector('.riddle-form__input');
-riddleInput.oninput = function() {
-    const value = this.value.toLowerCase();
-    if (value === 'эндорфин' || value === 'endorphin') {
-        fadeIn(overlay);
-        fadeIn(riddleModal);
-    }
-};
+// let overlay = document.querySelector('.overlay');
+// let riddleModal = document.querySelector('.riddle-modal');
+// let riddleInput = document.querySelector('.riddle-form__input');
+// riddleInput.oninput = function() {
+//     const value = this.value.toLowerCase();
+//     if (value === 'эндорфин' || value === 'endorphin') {
+//         fadeIn(overlay);
+//         fadeIn(riddleModal);
+//     }
+// };
